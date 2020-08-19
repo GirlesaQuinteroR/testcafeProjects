@@ -1,0 +1,21 @@
+{
+  "name": "testcafecourse",
+  "version": "1.0.0",
+  "description": "Testing Udemy course in TestCafe",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome": "testcafe chrome ./tests -s takeOnFails=true --disable-page-caching"
+  },
+  "keywords": [
+    "testing",
+    "udemy",
+    "Energage",
+    "examples"
+  ],
+  "author": "Girlesa Quintero Rodriguez",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^2.0.5",
+    "testcafe": "^1.9.1"
+  }
+}
